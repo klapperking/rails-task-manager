@@ -67,3 +67,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+
+# Add fa icon ruby helper
+gem "font-awesome-rails"
