@@ -1,0 +1,6 @@
+<%= @task.title %>
+<%= @task.details %>
+<%= @task.completed %>
+
+<%= link_to('Edit this task', update_path(@task.id)) %>
+<%= link_to('Back to List', index_path) %>
